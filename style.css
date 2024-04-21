@@ -1,3 +1,8 @@
 body {
   font-family: "Jersey 10", sans-serif;
 }
+
+#background {
+  display: flex;
+  justify-content: center;
+}
