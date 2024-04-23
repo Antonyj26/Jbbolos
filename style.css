@@ -11,19 +11,28 @@ header {
   margin: 3px;
   flex: 1 1 100%;
   background: grey;
+  height: 100px;
 }
 
 nav {
   display: flex;
   margin: 3px;
-  flex: 1 1 100%;
+  flex: 1 1 200px;
   background: grey;
 }
 
 main {
   display: flex;
   margin: 3px;
-  flex: 1 1 100%;
+  flex: 20 1 500px;
+  background: grey;
+  height: 400px;
+}
+
+aside {
+  display: flex;
+  margin: 3px;
+  flex: 1 1 200px;
   background: grey;
 }
 
@@ -32,4 +41,5 @@ footer {
   margin: 3px;
   flex: 1 1 100%;
   background: grey;
+  height: 100px;
 }
