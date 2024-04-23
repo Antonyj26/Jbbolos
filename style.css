@@ -4,13 +4,14 @@ body {
   font-family: "Jersey 10", sans-serif;
   margin: 3px;
   flex: 1 1 100%;
+  background-color: white;
 }
 
 header {
   display: flex;
   margin: 3px;
   flex: 1 1 100%;
-  background: grey;
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
   height: 100px;
 }
 
@@ -18,28 +19,34 @@ nav {
   display: flex;
   margin: 3px;
   flex: 1 1 200px;
-  background: grey;
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  text: color white;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
 }
 
 main {
   display: flex;
   margin: 3px;
   flex: 20 1 500px;
-  background: grey;
   height: 400px;
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 }
 
 aside {
   display: flex;
   margin: 3px;
   flex: 1 1 200px;
-  background: grey;
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 }
 
 footer {
   display: flex;
   margin: 3px;
   flex: 1 1 100%;
-  background: grey;
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
   height: 100px;
 }
