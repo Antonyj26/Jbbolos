@@ -1,16 +1,27 @@
 body {
   display: flex;
   font-family: "Jersey 10", sans-serif;
+  margin: 3px;
+  flex: 1 1 100%;
 }
 
 header {
   display: flex;
+  margin: 3px;
+  flex: 1 1 100%;
+  background: grey;
 }
 
-main h1 {
+main {
   display: flex;
+  margin: 3px;
+  flex: 1 1 100%;
+  background: grey;
 }
 
 footer {
   display: flex;
+  margin: 3px;
+  flex: 1 1 100%;
+  background: grey;
 }
