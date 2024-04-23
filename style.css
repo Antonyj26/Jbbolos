@@ -1,26 +1,16 @@
 body {
+  display: flex;
   font-family: "Jersey 10", sans-serif;
 }
 
-#background {
+header {
   display: flex;
-  justify-content: center;
-}
-#background img {
-  width: 300px;
-}
-
-main {
-  text-align: center;
-  color: deeppink;
 }
 
 main h1 {
-  font-size: 80px;
+  display: flex;
 }
 
 footer {
   display: flex;
-  justify-content: center;
-  font-size: 50px;
 }
