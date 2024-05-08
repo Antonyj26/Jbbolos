@@ -34,7 +34,7 @@ header {
 }
 
 header img {
-  width: 120px;
+  width: 150px;
   border-radius: 100px;
 }
 
@@ -68,15 +68,15 @@ header li:first-child {
 section {
   background-size: cover;
   min-height: 100vh;
+  display: flex;
 }
 
 section img {
   margin: auto;
-  display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 150px 100px;
+  padding: 150px 300px;
 }
 
 footer h1,
