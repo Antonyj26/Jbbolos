@@ -22,7 +22,6 @@ a:hover {
 }
 
 header {
-  position: absolute;
   width: 100%;
   top: 0;
   left: 0;
@@ -76,7 +75,6 @@ section img {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 150px 300px;
 }
 
 footer h1,
